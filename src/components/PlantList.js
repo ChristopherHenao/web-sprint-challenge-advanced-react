@@ -24,7 +24,6 @@ export default class PlantList extends Component {
 
   /*********  DON'T CHANGE ANYTHING IN THE RENDER FUNCTION *********/
   render() {
-    console.log(this.state.plants)
     return (
       <main className="plant-list">
         {this.state.plants?.map((plant) => (
